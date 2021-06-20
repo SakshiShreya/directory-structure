@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/directory-structure/static/css/main.1f513a8d.chunk.css",
+    "main.js": "/directory-structure/static/js/main.1c7b089b.chunk.js",
+    "main.js.map": "/directory-structure/static/js/main.1c7b089b.chunk.js.map",
+    "runtime-main.js": "/directory-structure/static/js/runtime-main.7ebcbe50.js",
+    "runtime-main.js.map": "/directory-structure/static/js/runtime-main.7ebcbe50.js.map",
+    "static/css/2.fe3666b5.chunk.css": "/directory-structure/static/css/2.fe3666b5.chunk.css",
+    "static/js/2.428fc81a.chunk.js": "/directory-structure/static/js/2.428fc81a.chunk.js",
+    "static/js/2.428fc81a.chunk.js.map": "/directory-structure/static/js/2.428fc81a.chunk.js.map",
+    "static/js/3.d6dea229.chunk.js": "/directory-structure/static/js/3.d6dea229.chunk.js",
+    "static/js/3.d6dea229.chunk.js.map": "/directory-structure/static/js/3.d6dea229.chunk.js.map",
+    "index.html": "/directory-structure/index.html",
+    "static/css/2.fe3666b5.chunk.css.map": "/directory-structure/static/css/2.fe3666b5.chunk.css.map",
+    "static/css/main.1f513a8d.chunk.css.map": "/directory-structure/static/css/main.1f513a8d.chunk.css.map",
+    "static/js/2.428fc81a.chunk.js.LICENSE.txt": "/directory-structure/static/js/2.428fc81a.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/directory-structure/static/media/outline-icons.ddae9b1b.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7ebcbe50.js",
+    "static/css/2.fe3666b5.chunk.css",
+    "static/js/2.428fc81a.chunk.js",
+    "static/css/main.1f513a8d.chunk.css",
+    "static/js/main.1c7b089b.chunk.js"
+  ]
+}
