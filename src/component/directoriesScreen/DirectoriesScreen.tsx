@@ -15,12 +15,12 @@ const DirectoriesScreen: React.FC<DirectoriesScreenProps> = () => {
 
   const [showPopup, setShowPopup] = React.useState(false);
 
-  const currentPath = params[0].split("/");
+  const currentPath = params[0].slice(process.env.PUBLIC_URL.length).split("/");
 
   function back() {
     const backPath = [...currentPath];
     backPath.pop();
-    return "/" + backPath.join("/");
+    return process.env.PUBLIC_URL + "/" + backPath.join("/");
   }
 
   return (
@@ -55,7 +55,7 @@ const DirectoriesScreen: React.FC<DirectoriesScreenProps> = () => {
                 <List.Item key={child.name}>
                   <List.Icon name="folder" />
                   <List.Content>
-                    <Link to={(directories.name === "" ? "" : "/") + [...currentPath, child.name].join("/")} className={styles.link}>
+                    <Link to={(process.env.PUBLIC_URL + (directories.name === "" ? "" : "/")) + [...currentPath, child.name].join("/")} className={styles.link}>
                       {child.name}
                     </Link>
                   </List.Content>

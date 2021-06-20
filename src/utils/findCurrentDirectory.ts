@@ -1,6 +1,8 @@
 import { IDirectories } from "../interfaces/directoryInterface";
 
 export function findCurrentDirectory(state: IDirectories, params: string) {
+  // if it is deployed, remove the PUBLIC_URL string from the beginning
+  params = params.slice(process.env.PUBLIC_URL.length);
   let path = params.split("/");
   // remove blank string from beginning
 
