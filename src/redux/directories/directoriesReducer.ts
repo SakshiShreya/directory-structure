@@ -28,7 +28,8 @@ const directoriesReducer = (state = initialState, action: IAction) => {
     case ADD_DIRECTORY:
       const newDirectory: IDirectories = { ...action.payload, children: [] };
 
-      let path = action.address.split("/");
+      // if it is deployed, remove the PUBLIC_URL string from the beginning
+      let path = action.address.slice(process.env.PUBLIC_URL.length).split("/");
       if (path[0] !== "") {
         path.unshift("");
       }
