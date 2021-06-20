@@ -4,6 +4,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 **NOTE:** This project does not involve any kind of backend/middleware. Thus, if you try to reload, all data is deleted.
 
+To see the live demo without installing anything, please go to this page:\
+[https://sakshishreya.github.io/directory-structure/](https://sakshishreya.github.io/directory-structure/)
+
 ## How to setup
 
 - Clone the app from GitHub
@@ -46,8 +49,6 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Learn More
+## KNOWN ISSUE
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- If we try to open the directory path directly in GitHub pages, it shows GitHub error page because the directory path is dynamic. But it works perfectly in localhost.
